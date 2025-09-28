@@ -1,0 +1,17 @@
+sort1 uses: Bubble.
+How do you know?: Very fast on sorted input but slowed significantly on reversed and random data, consistent with bubble sort’s O(n^2) worst case.
+time ./sort1 sorted10000.txt 0m0.038s
+time ./sort1 reversed10000.txt 0m0.231s
+time ./sort1 random50000.txt 0m6.583s
+
+sort2 uses: Merge.
+How do you know?: Scales well with input size and stays efficient on both sorted and reversed input, consistent with merge sort’s O(n log n) behavior.
+time ./sort2 sorted10000.txt 0m0.033s
+time ./sort2 reversed10000.txt 0m0.027s
+time ./sort2 random50000.txt 0m0.337s
+
+sort3 uses: Selection.
+How do you know?: Roughly the same speed on sorted and reversed input, since selection sort always does O(n^2) comparisons regardless of order. Slower growth on larger inputs than merge.
+time ./sort3 sorted10000.txt 0m0.120s
+time ./sort3 reversed10000.txt 0m0.126s
+time ./sort3 random50000.txt 0m2.855s
