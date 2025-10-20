@@ -1,6 +1,6 @@
 # CS50x - Week 3: Algorithms
 
-This repo contains my solutions for **Week 3** of Harvard's [CS50x](https://pll.harvard.edu/course/cs50-introduction-computer-science) course. The focus this week was on learning the basics of the **algorithms**, including:
+This repo contains my solutions for **Week 3** of Harvard's [CS50x](https://pll.harvard.edu/course/cs50-introduction-computer-science) course. The focus this week was on learning the basics of **algorithms**, including:
 
 - Linear Search
 - Binary Search
